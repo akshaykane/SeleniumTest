@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "saucedemo-login-feature;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5658687500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginPageMethods.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157423000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid username",
+            "match": {
+              "location": "LoginPageMethods.user_enters_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190292900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters valid password",
+            "match": {
+              "location": "LoginPageMethods.user_enters_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287206000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginPageMethods.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 744580300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User closes the browser",
+            "match": {
+              "location": "LoginPageMethods.user_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SauceDemo login feature",
+    "description": "",
+    "id": "saucedemo-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

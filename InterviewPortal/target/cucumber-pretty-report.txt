@@ -1,0 +1,8 @@
+Feature: SauceDemo login feature
+
+  Scenario: Login with valid credentials # login.feature:3
+    Given User is on login page          # LoginPageMethods.user_is_on_login_page()
+    When User enters valid username      # LoginPageMethods.user_enters_valid_username()
+    When User enters valid password      # LoginPageMethods.user_enters_valid_password()
+    And User clicks on login button      # LoginPageMethods.user_clicks_on_login_button()
+    Then User closes the browser         # LoginPageMethods.user_closes_the_browser()

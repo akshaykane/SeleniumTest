@@ -1,0 +1,92 @@
+[
+  {
+    "source": "^User is on login page$",
+    "steps": [
+      {
+        "name": "User is on login page",
+        "aggregatedDurations": {
+          "average": 5.6586875,
+          "median": 5.6586875
+        },
+        "durations": [
+          {
+            "duration": 5.6586875,
+            "location": "login.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User closes the browser$",
+    "steps": [
+      {
+        "name": "User closes the browser",
+        "aggregatedDurations": {
+          "average": 0.7445803,
+          "median": 0.7445803
+        },
+        "durations": [
+          {
+            "duration": 0.7445803,
+            "location": "login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters valid username$",
+    "steps": [
+      {
+        "name": "User enters valid username",
+        "aggregatedDurations": {
+          "average": 0.157423,
+          "median": 0.157423
+        },
+        "durations": [
+          {
+            "duration": 0.157423,
+            "location": "login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User clicks on login button$",
+    "steps": [
+      {
+        "name": "User clicks on login button",
+        "aggregatedDurations": {
+          "average": 0.287206,
+          "median": 0.287206
+        },
+        "durations": [
+          {
+            "duration": 0.287206,
+            "location": "login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters valid password$",
+    "steps": [
+      {
+        "name": "User enters valid password",
+        "aggregatedDurations": {
+          "average": 0.1902929,
+          "median": 0.1902929
+        },
+        "durations": [
+          {
+            "duration": 0.1902929,
+            "location": "login.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]
